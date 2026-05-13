@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+html {
+
+    font-size: 100%;}
+header {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+body { 
+  background-image: url(Images/sforest.png);
+  
+        color:  black;
+    font-family: "Maven Pro", sans-serif;
+     border: 14px white;
+}
+
+/* Style the topnav */
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: black;
+  color: black;
+}
